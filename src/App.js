@@ -1,7 +1,7 @@
 import React from 'react'
-import Home from './components/home'
+import { Home } from '../src/components/home'
 
-function App() {
+const App = () => {
 	return <Home />
 }
 
