@@ -1,2 +1,42 @@
 .about {
+	padding-bottom: 48px;
+}
+
+.about-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile-pic {
+	height: 420px;
+}
+
+.about-info {
+	font-size: 24;
+}
+
+.about-name {
+	color: blue;
+	font-size: 32px;
+}
+
+@media only screen and (max-width: 720px) {
+	.about-top {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-info {
+		font-size: 20;
+	}
+
+	.about-name {
+		font-size: 26px;
+	}
+
+	.profile-pic {
+		height: 280px;
+	}
 }
