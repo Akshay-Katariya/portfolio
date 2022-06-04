@@ -1,8 +1,9 @@
 import React from 'react'
+import { SocialContact } from '../../social-contact'
 import './about.css'
 
 export const About = () => {
-	const picture = require('../../../assets/coding.png')
+	const picture = require('../../../assets/images/coding.png')
 	return (
 		<div className='about'>
 			<div className='about-top'>
@@ -16,7 +17,7 @@ export const About = () => {
 					<img src={picture} alt='profile' className='profile-pic' />
 				</div>
 			</div>
-			<div className='about-bottom'>Contact will go here</div>
+			<SocialContact />
 		</div>
 	)
 }
