@@ -16,7 +16,9 @@ export const WorkCard = (props) => {
 					{achievement.map((item) => (
 						<div className='work-achievement'>
 							<ul>
-								<li>{item}</li>
+								<li>
+									<div dangerouslySetInnerHTML={{ __html: item }} />
+								</li>
 							</ul>
 						</div>
 					))}

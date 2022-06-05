@@ -45,6 +45,12 @@
 .work-achievement {
 }
 
+ul,
+li {
+	margin: 2px;
+	padding: 0px;
+}
+
 @media only screen and (max-width: 720px) {
 	.work-card {
 		width: 100%;
