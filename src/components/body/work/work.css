@@ -1,0 +1,11 @@
+.work {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.work-label {
+}
+
+.work-list {
+}

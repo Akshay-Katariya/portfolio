@@ -1,0 +1,55 @@
+.work-card {
+	display: flex;
+	flex: 1;
+	margin: 16px 0px;
+	padding: 8px 0px;
+}
+
+.work-achievement {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.work-logo-container {
+	display: flex;
+	flex: 0.3;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.work-logo {
+	display: flex;
+	max-height: 40px;
+	width: auto;
+	height: auto;
+}
+
+.work-info {
+	display: flex;
+	flex: 0.7;
+	margin-right: 24px;
+	flex-direction: column;
+}
+
+.work-company-name {
+}
+
+.work-dates {
+	color: grey;
+	margin-bottom: 12px;
+}
+
+.work-achievement {
+}
+
+@media only screen and (max-width: 720px) {
+	.work-card {
+		width: 100%;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.work-logo {
+		height: 40px;
+	}
+}
