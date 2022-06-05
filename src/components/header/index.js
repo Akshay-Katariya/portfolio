@@ -9,7 +9,7 @@ export const Header = () => {
 
 	return (
 		<div className='header'>
-			<div className='logo'>Home</div>
+			<div className='logo'>#Ak</div>
 			<div className='menu'>
 				<div className='menu-web'>
 					<Web />

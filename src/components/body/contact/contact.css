@@ -22,21 +22,6 @@
 	text-align: center;
 }
 
-.download {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 24px;
-	border-radius: 4px;
-	background-color: aquamarine;
-	padding: 8px 16px;
-}
-
-.download a {
-	text-decoration: none;
-	color: black;
-}
-
 @media only screen and (max-width: 720px) {
 	.contact-container {
 		flex-direction: column;
@@ -47,8 +32,5 @@
 		max-width: 100%;
 		font-size: 16px;
 		margin-bottom: 12px;
-	}
-	.download {
-		font-size: 16px;
 	}
 }
