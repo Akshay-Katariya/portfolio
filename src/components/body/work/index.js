@@ -11,7 +11,7 @@ export const Work = () => {
 			<Separator />
 			<div className='work-list'>
 				{WorkData.map((work) => (
-					<WorkCard work={work} />
+					<WorkCard key={work.company} work={work} />
 				))}
 			</div>
 		</div>

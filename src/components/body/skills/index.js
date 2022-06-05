@@ -11,11 +11,11 @@ export const Skills = () => {
 			<Separator />
 			<div className='skills-container'>
 				{SkillsData.map((item) => (
-					<div id={item.type} className='skills-section'>
+					<div key={item.type} id={item.type} className='skills-section'>
 						<label className='skills-title'>{item.type}</label>
 						<div className='skills-list'>
 							{item.list.map((skill) => {
-								return <SkillCard id={skill.name} skill={skill} />
+								return <SkillCard key={skill.name} id={skill.name} skill={skill} />
 							})}
 						</div>
 					</div>
