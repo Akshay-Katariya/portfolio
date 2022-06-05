@@ -7,8 +7,8 @@ import './skills.css'
 export const Skills = () => {
 	return (
 		<div className='skills'>
-			<Separator />
 			<label className='skills-section-title'>Skills</label>
+			<Separator />
 			<div className='skills-container'>
 				{SkillsData.map((item) => (
 					<div id={item.type} className='skills-section'>

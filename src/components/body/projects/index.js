@@ -7,8 +7,8 @@ import './projects.css'
 export const Projects = () => {
 	return (
 		<div className='projects'>
-			<Separator />
 			<label className='project-section-title'>Projects</label>
+			<Separator />
 			<div>
 				{ProjectData.map((project) => (
 					<ProjectCard key={project.id} data={project} />

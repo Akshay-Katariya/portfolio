@@ -7,8 +7,8 @@ export const Contact = () => {
 	const resume = require('../../../assets/AkshayKatariyaResume.pdf')
 	return (
 		<div className='contact'>
-			<Separator />
 			<label className='contact-section-title'>Contact</label>
+			<Separator />
 			<div className='contact-container'>
 				<div className='contact-left'>
 					<p>Want to get in touch? Contact me on any of the following platforms</p>

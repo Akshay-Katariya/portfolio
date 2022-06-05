@@ -7,8 +7,8 @@ import './work.css'
 export const Work = () => {
 	return (
 		<div className='work'>
-			<Separator />
 			<label className='work-section-label'>Work</label>
+			<Separator />
 			<div className='work-list'>
 				{WorkData.map((work) => (
 					<WorkCard work={work} />
