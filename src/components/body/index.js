@@ -9,19 +9,19 @@ import './body.css'
 export const Body = () => {
 	return (
 		<div className='body'>
-			<section id='#about'>
+			<section id='about'>
 				<About />
 			</section>
-			<section id='#projects'>
+			<section id='projects'>
 				<Projects />
 			</section>
-			<section id='#skills'>
+			<section id='skills'>
 				<Skills />
 			</section>
-			<section id='#work'>
+			<section id='work'>
 				<Work />
 			</section>
-			<section id='#contact'>
+			<section id='contact'>
 				<Contact />
 			</section>
 		</div>
