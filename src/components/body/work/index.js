@@ -8,7 +8,7 @@ export const Work = () => {
 	return (
 		<div className='work'>
 			<Separator />
-			<label className='work-label'>Work</label>
+			<label className='work-section-label'>Work</label>
 			<div className='work-list'>
 				{WorkData.map((work) => (
 					<WorkCard work={work} />

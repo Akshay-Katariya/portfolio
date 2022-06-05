@@ -4,7 +4,9 @@
 	flex-direction: column;
 }
 
-.work-label {
+.work-section-label {
+	font-size: 32px;
+	font-weight: 700;
 }
 
 .work-list {
