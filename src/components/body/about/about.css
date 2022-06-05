@@ -17,10 +17,40 @@
 }
 
 .about-name {
-	color: blue;
 	font-size: 32px;
+	font-weight: 700;
 }
 
+.about-title {
+	height: 50px;
+	overflow: hidden;
+}
+
+.about-title-wrapper {
+	height: 100%;
+	animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+	33% {
+		transform: translateY(-50px);
+	}
+	66% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-150px);
+	}
+}
+
+.about-title-item {
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #59b256;
+	display: flex;
+	align-items: center;
+}
 @media only screen and (max-width: 720px) {
 	.about-top {
 		flex-direction: column;

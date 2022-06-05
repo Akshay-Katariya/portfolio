@@ -11,6 +11,14 @@ export const About = () => {
 					Hello There 👋, I am
 					<br />
 					<span className='about-name'>Akshay Katariya.</span>
+					<div className='about-title'>
+						<div className='about-title-wrapper'>
+							<div className='about-title-item'>Software Engineer</div>
+							<div className='about-title-item'>Mobile App Developer</div>
+							<div className='about-title-item'>React Developer</div>
+							<div className='about-title-item'>MEARN Stack Developer</div>
+						</div>
+					</div>
 					<br />I love experimenting with mobile 📱 & web 🖥 technologies
 					<br />
 					<br />
