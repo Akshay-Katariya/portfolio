@@ -1,0 +1,36 @@
+export const ProjectData = [
+	{
+		id: '1',
+		title: 'Project 1',
+		intro: 'This is a simple project created using react native ',
+		image: require('../assets/images/coding.png'),
+		description: '',
+		highlight: [],
+		techStack: ['React-JS', 'Node-JS', 'Firebase', 'Redux', 'Axios', 'i18n'],
+		demoLink: 'https://github.com/Akshay-Katariya',
+		githubLink: 'https://github.com/Akshay-Katariya',
+	},
+	{
+		id: '2',
+		title: 'Project 2',
+		intro:
+			'This is a simple project created using react native for demo purpose please use actual description here from your previous projects',
+		image: require('../assets/images/coding.png'),
+		description: '',
+		highlight: [],
+		techStack: ['React-JS', 'Node-JS', 'Firebase', 'Redux', 'Axios', 'i18n'],
+		demoLink: 'https://github.com/Akshay-Katariya',
+		githubLink: 'https://github.com/Akshay-Katariya',
+	},
+	{
+		id: '3',
+		title: 'Project 3',
+		intro: 'This is a simple project created using react native ',
+		image: require('../assets/images/coding.png'),
+		description: '',
+		highlight: [],
+		techStack: ['React-JS', 'Node-JS', 'Firebase', 'Redux', 'Axios', 'i18n'],
+		demoLink: 'https://github.com/Akshay-Katariya',
+		githubLink: 'https://github.com/Akshay-Katariya',
+	},
+]

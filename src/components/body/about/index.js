@@ -1,5 +1,5 @@
 import React from 'react'
-import { SocialContact } from '../../social-contact'
+import { SocialContact } from '../../common/social-contact'
 import './about.css'
 
 export const About = () => {
