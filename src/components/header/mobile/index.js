@@ -13,23 +13,23 @@ export const Mobile = (props) => {
 			</div>
 			<div className='mobile-options'>
 				<div className='mobile-option'>
-					<a href='#project'>
+					<a href='#projects' onClick={handleCloseClick}>
 						<i class='fi fi-rr-edit-alt option-icon'></i>Projects
 					</a>
 				</div>
 				<div />
 				<div className='mobile-option'>
-					<a href='#skills'>
+					<a href='#skills' onClick={handleCloseClick}>
 						<i class='fi fi-rr-laptop option-icon'></i>Skills
 					</a>
 				</div>
 				<div className='mobile-option'>
-					<a href='#work'>
+					<a href='#work' onClick={handleCloseClick}>
 						<i class='fi fi-rr-briefcase option-icon'></i>Work
 					</a>
 				</div>
 				<div className='mobile-option'>
-					<a href='#project'>
+					<a href='#contact' onClick={handleCloseClick}>
 						<i class='fi fi-rr-user option-icon'></i>Contact
 					</a>
 				</div>
