@@ -15,7 +15,13 @@
 		#6bcc70
 	);
 	height: 6px;
-	width: 40%;
+	width: 30%;
 	border-radius: 3px;
 	margin: 16px 0px;
+}
+
+@media only screen and (max-width: 720px) {
+	.separator {
+		width: 40%;
+	}
 }

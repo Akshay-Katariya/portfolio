@@ -7,7 +7,6 @@ export const WorkCard = (props) => {
 		<div className='work-card'>
 			<div className='work-info'>
 				<label className='work-company-name'>{company}</label>
-
 				<div className='work-dates'>
 					<label>
 						{startDate} - {endDate}

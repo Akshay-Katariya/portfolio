@@ -18,6 +18,11 @@
 	font-weight: 700;
 }
 
+.skills-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
 .skills-list {
 	display: flex;
 	flex-wrap: wrap;

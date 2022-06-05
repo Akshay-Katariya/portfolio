@@ -12,7 +12,7 @@ export const Skills = () => {
 			<div className='skills-container'>
 				{SkillsData.map((item) => (
 					<div id={item.type} className='skills-section'>
-						<label className='skills-section-title'>{item.type}</label>
+						<label className='skills-title'>{item.type}</label>
 						<div className='skills-list'>
 							{item.list.map((skill) => {
 								return <SkillCard id={skill.name} skill={skill} />
