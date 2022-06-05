@@ -1,6 +1,6 @@
 .web {
 	display: flex;
-	float: 1;
+	flex: 1;
 	align-items: center;
 }
 .web-option {

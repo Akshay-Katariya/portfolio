@@ -24,6 +24,11 @@
 .about-title {
 	height: 50px;
 	overflow: hidden;
+	margin: 12px 0px;
+}
+
+.about-exp {
+	font-weight: 700;
 }
 
 .about-title-wrapper {

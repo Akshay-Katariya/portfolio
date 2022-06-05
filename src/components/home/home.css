@@ -9,6 +9,27 @@ html {
 	margin: auto;
 }
 
+.back-to-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 40px;
+	right: 40px;
+	height: 60px;
+	width: 60px;
+	font-size: 24px;
+	position: fixed;
+	background: aquamarine;
+	color: black;
+	cursor: pointer;
+	border-radius: 100px;
+	box-shadow: 0 5px 10px #cccccc;
+}
+
+.back-to-top:hover {
+	box-shadow: 0 5px 10px #959595;
+}
+
 @media only screen and (max-width: 1024px) {
 	.home {
 		width: 90%;
@@ -18,5 +39,8 @@ html {
 @media only screen and (max-width: 512px) {
 	.home {
 		width: 100%;
+	}
+	.back-to-top {
+		display: none;
 	}
 }
