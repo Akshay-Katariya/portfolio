@@ -28,7 +28,7 @@ export const SkillsData = [
 			},
 			{
 				name: 'Kotlin',
-				icon: <i class='devicon-kotlin-plain colored'></i>,
+				icon: <i class='devicon-kotlin-plain colored' />,
 			},
 		],
 	},
@@ -62,15 +62,15 @@ export const SkillsData = [
 		list: [
 			{
 				name: 'Firebase',
-				icon: <i class='devicon-firebase-plain colored'></i>,
+				icon: <i class='devicon-firebase-plain colored' />,
 			},
 			{
 				name: 'Sqlite',
-				icon: <i class='devicon-sqlite-plain colored'></i>,
+				icon: <i class='devicon-sqlite-plain colored' />,
 			},
 			{
 				name: 'Realm/MongoDB',
-				icon: <i class='devicon-mongodb-plain colored'></i>,
+				icon: <i class='devicon-mongodb-plain colored' />,
 			},
 		],
 	},
@@ -79,23 +79,27 @@ export const SkillsData = [
 		list: [
 			{
 				name: 'NodeJS',
-				icon: <i class='devicon-nodejs-plain-wordmark colored'></i>,
+				icon: <i class='devicon-nodejs-plain-wordmark colored' />,
 			},
 			{
 				name: 'Maps',
-				icon: <i class='devicon-google-plain colored'></i>,
+				icon: <i class='devicon-google-plain colored' />,
 			},
 			{
 				name: 'Git',
-				icon: <i class='devicon-git-plain colored'></i>,
+				icon: <i class='devicon-git-plain colored' />,
 			},
 			{
 				name: 'Jira',
-				icon: <i class='devicon-jira-plain colored'></i>,
+				icon: <i class='devicon-jira-plain colored' />,
 			},
 			{
 				name: 'CI-CD',
-				icon: <i class='devicon-circleci-plain colored'></i>,
+				icon: <i class='devicon-circleci-plain colored' />,
+			},
+			{
+				name: 'Docker',
+				icon: <i class='devicon-docker-plain colored' />,
 			},
 		],
 	},
