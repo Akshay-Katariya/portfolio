@@ -18,7 +18,7 @@ export const SocialContact = () => {
 				})}
 			</div>
 			<div className='download'>
-				<a download href={resume}>
+				<a download='Akshay-Katariya-Resume.pdf' href={resume}>
 					<i class='fi fi-rr-cloud-download'></i>
 					Download Resume
 				</a>
