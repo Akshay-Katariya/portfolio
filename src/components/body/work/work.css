@@ -2,12 +2,10 @@
 	display: flex;
 	flex: 1;
 	flex-direction: column;
+	margin-bottom: 24px;
 }
 
 .work-section-label {
 	font-size: 32px;
 	font-weight: 700;
-}
-
-.work-list {
 }
