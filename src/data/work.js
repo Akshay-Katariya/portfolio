@@ -48,7 +48,7 @@ export const WorkData = [
 			'Translated UI wireframe and mockup to visual elements of application',
 			'Developed one of the biggest and crucial applications with complex architecture and library integration with the hardware device',
 			'Published fantasy football applications that have <b>4.4</b> ⭐️ rating on PlayStore',
-			'Awarded with <b><i>Star of the month and Team of the quarter</i></b>',
+			'Awarded with <b>Star of the month and Team of the quarter</b>',
 		],
 	},
 ]
