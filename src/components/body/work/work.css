@@ -1,8 +1,10 @@
+.work {
+	margin-bottom: 48px;
+}
 .work-section-label {
 	font-size: 32px;
 	font-weight: 700;
 }
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -11,7 +13,6 @@ a {
 	position: relative;
 	padding: 19px 22px;
 	transition: all 0.2s ease;
-	margin-bottom: 20px;
 }
 .work-cta:before {
 	content: '';
@@ -27,7 +28,7 @@ a {
 }
 .work-cta span {
 	position: relative;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	vertical-align: middle;
 }
@@ -44,11 +45,12 @@ a {
 .work-company-button {
 	display: flex;
 	width: max-content;
+	margin-bottom: 20px;
+	margin-right: 20px;
 }
-.right {
-	padding-left: 20px;
+.work-company-button:last-child {
+	margin-bottom: 0px;
 }
-
 @media only screen and (max-width: 720px) {
 	.work-container {
 		flex-direction: column;
@@ -56,10 +58,10 @@ a {
 	.work-company-container {
 		display: flex;
 		overflow-x: auto;
+		scrollbar-width: 0;
 	}
 	::-webkit-scrollbar {
-		width: 0; /* Remove scrollbar space */
-		background: transparent; /* Optional: just make scrollbar invisible */
+		display: none;
 	}
 	.work-cta {
 		width: max-content;

@@ -3,6 +3,7 @@
 	flex-direction: column;
 }
 .work-company-info {
+	font-size: 18px;
 	margin-top: 19px;
 }
 .work-company-name {
@@ -17,4 +18,10 @@ li {
 	margin: 2px;
 	padding: 0px 12px;
 	color: black;
+}
+
+@media only screen and (max-width: 720px) {
+	.work-company-info {
+		margin-top: 0px;
+	}
 }
