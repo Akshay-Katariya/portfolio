@@ -31,6 +31,6 @@
 	}
 	.skills-section {
 		flex-direction: column;
-		align-items: center;
+		/* align-items: center; */
 	}
 }
