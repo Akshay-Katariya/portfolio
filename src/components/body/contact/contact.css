@@ -1,6 +1,5 @@
 .contact {
 	display: flex;
-	flex: 1;
 	flex-direction: column;
 }
 .contact-section-title {
@@ -8,29 +7,5 @@
 	font-weight: 700;
 }
 
-.contact-container {
-	display: flex;
-	flex: 1;
-	justify-content: space-between;
-	align-items: center;
-	margin: 16px 0px;
-}
-
-.contact-left {
-	max-width: 60%;
-	font-size: 20px;
-	text-align: center;
-}
-
 @media only screen and (max-width: 720px) {
-	.contact-container {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.contact-left {
-		max-width: 100%;
-		font-size: 16px;
-		margin-bottom: 12px;
-	}
 }
