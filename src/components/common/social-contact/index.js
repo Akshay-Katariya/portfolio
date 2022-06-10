@@ -9,7 +9,7 @@ export const SocialContact = () => {
 			<div className='social-contact-container'>
 				{SocialData.map((item) => {
 					return (
-						<a key={item.platform} href={item.url}>
+						<a key={item.platform} href={item.url} target='_blank' rel='noreferrer'>
 							<div className='social-icon-div'>
 								<img src={item.image} alt={item.platform} className='social-icon' />
 							</div>

@@ -9,14 +9,14 @@ export const ProjectCard = (props) => {
 				<label className='project-title'>{title}</label>
 				<div className='project-links'>
 					{demoLink && (
-						<a className='project-link' href={demoLink}>
+						<a className='project-link' href={demoLink} target='_blank' rel='noreferrer'>
 							<div className='project-link-button'>
 								<i class='fi fi-rr-globe'></i>Demo
 							</div>
 						</a>
 					)}
 					{githubLink && (
-						<a className='project-link' href={githubLink}>
+						<a className='project-link' href={githubLink} target='_blank' rel='noreferrer'>
 							<div className='project-link-button'>
 								<i class='devicon-github-original colored'></i>
 								Github

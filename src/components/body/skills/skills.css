@@ -4,13 +4,9 @@
 	width: 100%;
 }
 
-.skills-container {
-}
-
 .skills-section {
 	display: flex;
 	justify-content: space-between;
-	margin: 24px 0px;
 }
 
 .skills-section-title {

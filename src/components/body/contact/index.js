@@ -8,12 +8,11 @@ export const Contact = () => {
 		<div className='contact'>
 			<label className='contact-section-title'>Contact</label>
 			<Separator />
-			<div className='contact-container'>
-				<div className='contact-left'>
-					<p>Want to get in touch? Contact me on any of the following platforms</p>
-					<SocialContact />
-				</div>
-			</div>
+			<label className='contact-description'>
+				Want to get in touch for new opportunities, my inbox is always open. Whether you have a question or just want to
+				say hi, I'll try my best to get back to you!
+				<SocialContact />
+			</label>
 		</div>
 	)
 }
