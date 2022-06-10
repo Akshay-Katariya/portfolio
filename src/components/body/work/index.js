@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { WorkData } from '../../../data/work'
 import { Separator } from '../../common/separator'
+import { WorkAchievement } from './work-achievement'
 import './work.css'
 
 export const Work = () => {
@@ -23,28 +24,7 @@ export const Work = () => {
 						)
 					})}
 				</div>
-				<div className='work-achievements'>
-					{
-						<div className='work-details'>
-							<label className='work-company-info'>
-								{data.designation} <label className='company-name'>@{data.company}</label>
-							</label>
-							<label className='work-info-date'>
-								{data.startDate} - {data.endDate}
-							</label>
-							<br />
-							{data.achievement.map((achievements, index) => {
-								return (
-									<ul key={index}>
-										<li>
-											<label dangerouslySetInnerHTML={{ __html: achievements }} />
-										</li>
-									</ul>
-								)
-							})}
-						</div>
-					}
-				</div>
+				<WorkAchievement data={data} />
 			</div>
 		</div>
 	)

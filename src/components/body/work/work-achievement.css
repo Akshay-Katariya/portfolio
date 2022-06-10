@@ -1,0 +1,20 @@
+.work-details {
+	display: flex;
+	flex-direction: column;
+}
+.work-company-info {
+	margin-top: 19px;
+}
+.work-company-name {
+	font-weight: 600;
+	color: #59b256;
+}
+.work-info-date {
+	font-style: italic;
+}
+ul,
+li {
+	margin: 2px;
+	padding: 0px 12px;
+	color: black;
+}
