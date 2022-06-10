@@ -1,29 +1,19 @@
-.work {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-}
-
 .work-section-label {
 	font-size: 32px;
 	font-weight: 700;
 }
 
-.work-list {
-}
-
-/* new css */
 a {
 	text-decoration: none;
 	color: inherit;
 }
-.cta {
+.work-cta {
 	position: relative;
 	padding: 19px 22px;
 	transition: all 0.2s ease;
 	margin-bottom: 20px;
 }
-.cta:before {
+.work-cta:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -35,37 +25,33 @@ a {
 	height: 56px;
 	transition: all 0.3s ease;
 }
-.cta span {
+.work-cta span {
 	position: relative;
 	font-size: 16px;
+	font-weight: 600;
 	vertical-align: middle;
 }
-.cta:hover:before {
+.work-cta:hover:before {
 	width: 100%;
 	background: aquamarine;
 }
-.cta:active {
+.work-cta:active {
 	transform: scale(0.96);
 }
-.div-main {
+.work-container {
 	display: flex;
 }
-.item-left {
+.work-company-button {
 	display: flex;
 	width: max-content;
 }
 .right {
-	display: flex;
 	padding-left: 20px;
 }
-.info {
+.work-company-info {
 	margin-top: 19px;
 }
-.list {
-	display: flex;
-	flex-direction: column;
-}
-.div-details {
+.work-details {
 	display: flex;
 	flex-direction: column;
 }
@@ -75,9 +61,32 @@ li {
 	padding: 0px 12px;
 	color: black;
 }
+.company-name {
+	font-weight: 600;
+	color: #59b256;
+}
+.work-info-date {
+	font-style: italic;
+}
 
 @media only screen and (max-width: 720px) {
-	.div-main {
+	.work-container {
 		flex-direction: column;
+	}
+	.work-company-container {
+		display: flex;
+		overflow-x: auto;
+	}
+	::-webkit-scrollbar {
+		width: 0; /* Remove scrollbar space */
+		background: transparent; /* Optional: just make scrollbar invisible */
+	}
+	.work-cta {
+		width: max-content;
+		margin-bottom: 0px;
+		margin-right: 10px;
+	}
+	.right {
+		padding-left: 0px;
 	}
 }

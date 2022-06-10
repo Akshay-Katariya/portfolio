@@ -11,33 +11,33 @@ export const Work = () => {
 			<label className='work-section-label'>Work</label>
 			<Separator />
 
-			<div className='div-main'>
-				<div className='work-div'>
-					{WorkData.map((work) => {
+			<div className='work-container'>
+				<div className='work-company-container'>
+					{WorkData.map((work, index) => {
 						return (
-							<div className='item-left'>
-								<div className='cta' onClick={() => setData(work)}>
+							<div key={index} className='work-company-button'>
+								<div className='work-cta' onClick={() => setData(work)}>
 									<span>{work.company}</span>
 								</div>
 							</div>
 						)
 					})}
 				</div>
-				<div className='right'>
+				<div className='work-achievements'>
 					{
-						<div className='div-details'>
-							<label className='info'>
-								{data.designation} @ {data.company}
+						<div className='work-details'>
+							<label className='work-company-info'>
+								{data.designation} <label className='company-name'>@{data.company}</label>
 							</label>
-							<label className='info-date'>
+							<label className='work-info-date'>
 								{data.startDate} - {data.endDate}
 							</label>
 							<br />
-							{data.achievement.map((a) => {
+							{data.achievement.map((achievements, index) => {
 								return (
-									<ul>
+									<ul key={index}>
 										<li>
-											<label dangerouslySetInnerHTML={{ __html: a }} />
+											<label dangerouslySetInnerHTML={{ __html: achievements }} />
 										</li>
 									</ul>
 								)
