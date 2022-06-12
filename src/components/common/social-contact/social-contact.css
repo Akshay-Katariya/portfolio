@@ -7,6 +7,7 @@
 
 .social-contact-container {
 	display: flex;
+	margin: 12px 0px;
 }
 
 .social-icon-div {
@@ -29,7 +30,7 @@
 	padding: 8px 16px;
 	background-color: aquamarine;
 	border-radius: 4px;
-	margin: 6px 0px;
+	margin: 12px 0px;
 }
 
 .download i {
