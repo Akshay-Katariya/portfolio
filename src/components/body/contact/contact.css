@@ -6,6 +6,19 @@
 	font-size: 32px;
 	font-weight: 700;
 }
-
+.contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contact-left {
+	display: flex;
+	flex-direction: column;
+	flex: 0.5;
+}
+.contact-right {
+	display: flex;
+	flex: 0.5;
+}
 @media only screen and (max-width: 720px) {
 }
