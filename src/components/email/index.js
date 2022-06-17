@@ -54,15 +54,15 @@ export const Email = () => {
 		<>
 			<form action='/' className='email-form' ref={form} onSubmit={sendEmail}>
 				<div className='email-row'>
-					<label for='fname'>Name</label>
+					<label htmlFor='fname'>Name</label>
 					<input type='text' name='name' required placeholder='Enter your name' />
 				</div>
 				<div className='email-row'>
-					<label for='fname'>Email</label>
+					<label htmlFor='fname'>Email</label>
 					<input type='email' pattern={emailRegex} name='email' required placeholder='Enter your email' />
 				</div>
 				<div className='email-row'>
-					<label for='fname'>Message</label>
+					<label htmlFor='fname'>Message</label>
 					<textarea name='message' required placeholder='Enter your message' />
 				</div>
 				<button type='submit' className='form-button'>
