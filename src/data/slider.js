@@ -4,13 +4,14 @@ export const SliderSettings = {
 	arrows: true,
 	infinite: true,
 	// autoplay: true,
-	speed: 100,
+	speed: 2000,
+	autoplaySpeed: 5000,
 	slidesToShow: 3,
-	slidesToScroll: 3,
+	slidesToScroll: 1,
 
 	responsive: [
 		{
-			breakpoint: 1024,
+			breakpoint: 1390,
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 2,
