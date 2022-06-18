@@ -1,0 +1,27 @@
+.project-links {
+	margin-bottom: 24px;
+}
+
+.project-links a {
+	width: max-content;
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+
+.project-link-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+	background-color: aquamarine;
+	border-radius: 4px;
+	margin-right: 6px;
+	font-size: 16px;
+}
+
+.project-link-button i {
+	display: flex;
+	align-items: center;
+	margin-right: 4px;
+}

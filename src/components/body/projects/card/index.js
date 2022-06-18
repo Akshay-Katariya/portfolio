@@ -1,26 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './project-card.css'
 import { Tags } from '../../../common/tags'
+import Modal from 'react-modal'
+import { ProjectModal } from '../modal'
+
 export const ProjectCard = (props) => {
-	const { title, intro, techStack, demoLink } = props.project
+	const { title, intro, techStack } = props.project
+
+	const [isModalOpen, setModalOpen] = useState(false)
+
+	const handleToggle = () => setModalOpen(!isModalOpen)
+
+	useEffect(() => {
+		//Disable background scroll when modal is opened
+		const body = document.querySelector('body')
+		body.style.overflow = isModalOpen ? 'hidden' : 'auto'
+	}, [isModalOpen])
+
 	return (
-<<<<<<< HEAD
 		<>
-=======
-		<div className='project-card-container'>
->>>>>>> a7ac5242c08e65f2d36813714817afc628c328df
-			<a class='project-card' href={demoLink} target='_blank' rel='noreferrer'>
+			<Modal isOpen={isModalOpen} onRequestClose={handleToggle} className='modal' overlayClassName='overlay'>
+				<ProjectModal toggleModal={handleToggle} project={props.project} />
+			</Modal>
+			<div class='project-card' onClick={handleToggle}>
 				<label className='project-card-title'>{title}</label>
 				<p class='project-card-intro'>{intro}</p>
 				<div class='go-corner' href='#'>
-					<div class='go-arrow'>→</div>
+					{/* <div class='go-arrow'>→</div> */}
+					<i class='fi fi-rr-arrow-right'></i>
 				</div>
 				<Tags list={techStack} />
-			</a>
-<<<<<<< HEAD
+			</div>
 		</>
-=======
-		</div>
->>>>>>> a7ac5242c08e65f2d36813714817afc628c328df
 	)
 }

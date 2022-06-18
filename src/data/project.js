@@ -6,8 +6,8 @@ export const ProjectData = [
 			'Moving Goods Driver App(MGDA): MGDA is an AV based application. In which driver get trips according to the current location. Driver needs to “Accept/Reject” the trip. The driver pick up the goods from origin and deliver to respective recipient. Whole mobile app is developed in React native(iOS) and backend is managed by TAAS, which is responsible for dispatching the trips to the driver.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
-			'Revamped trip screen for mobile mobile app for better accessibility and keep driver more focused while driving',
+		contributions: [
+			'Revamped trip screen for mobile app for better accessibility and keep driver more focused while driving',
 			'Integrated trip queueing so that driver can accept multiple trips for the day',
 			'Schedule view so that driver can view all of his upcoming trips for the day',
 			'Implemented full screen turn by turn navigation using Mapbox',
@@ -35,7 +35,7 @@ export const ProjectData = [
 			'An application for agronomists and grower to calculate the residue level left on crop and determine the exporting countries and supermarket. Currently, live in 4 country and pilot test in 6 countries.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'Managed over 5+ lac records of master data in sqlite database',
 			'Implemented dynamic localization for 4 country',
 			'Migrated the whole project from React-Native 0.58 to 0.63 and react-navigation from v3 to v5 and fixed all other libraries breaking changes',
@@ -47,6 +47,7 @@ export const ProjectData = [
 		techStack: [
 			'React-Native 0.63',
 			'Navigation v5',
+			'CircleCI',
 			'Sqlite',
 			'Jest',
 			'Redux',
@@ -67,8 +68,8 @@ export const ProjectData = [
 			'All-in-one digital farming solution. A application for agronomist which helps them to manage large fields and keep track of various seasonal crops and help grower by providing accurate analysis of weather and best',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
-			'Implemented 100% automated CI-CD pipeline for Android and iOS app using Fastlane and deployed app on AppCenter and TestFlight for testing along with Slack integration',
+		contributions: [
+			'Implemented 100% automated CI-CD pipeline for Android and iOS app using CircleCI & Fastlane and deployed app on AppCenter and TestFlight for testing along with Slack integration',
 			'Created bridge to pass properties from native to React Native',
 			'Integrated Sentry for bug tracking and resolved all bugs before release',
 			"Collected all analytical data in Segment integrated with Amplitude and created charts according to business KPI's to measure the success of application",
@@ -77,6 +78,7 @@ export const ProjectData = [
 			'React-Native 0.62',
 			'Navigation v5',
 			'TypeScript',
+			'CircleCI',
 			'Realm',
 			'Redux',
 			'Amplitude',
@@ -93,7 +95,7 @@ export const ProjectData = [
 			'A scouting app designed to aid in spray timing to control Barley yellow dwarf virus (BYDV). Available on AppStore and PlayStore',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'Reduced weather service API response time from 20 to 10 sec by implementing filters and minimizing the time frame of data requested',
 			'Implemented offline functionality stored data locally and sync with remote server',
 			'Implemented Husky + ESlint +pre-commit hooks to maintain code quality and standard through the application',
@@ -121,7 +123,7 @@ export const ProjectData = [
 			'An official app from Tata Motors for the customers of passenger vehicles business which allows them to connect with Tata Motors for his/her after market needs.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'Provided seamless upgrade for all 100,000+ users on PlayStore',
 			'Developed whole app in Kotlin which saved almost 15% of development efforts',
 			'Session management using retrofit interceptors and provided auto-login functionality',
@@ -137,7 +139,7 @@ export const ProjectData = [
 			'Boca West Country Club member app, which allows members to connect to the club faster than before. Member can instantly view the club events, Member Directory, Guest Cards, your own Gift Certificates and the balances and host of other features.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'Provided easy and quick login using fingerprint authentication',
 			'Implemented dynamic UI rendering such as recycler view cards, bottom navigation & drawer navigation',
 			'White label the whole application to customize the theme and fit client custom requirement',
@@ -153,7 +155,7 @@ export const ProjectData = [
 			'Developed end-to-end B2B parking system for vendor called Secure Parking including Mobile + Web application portal including dynamic configurable Admin panel which generates 2.5 billion annually over 1,700+ car parks and 1.2 million parking spaces are under operation.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'Customized Epson P20 thermal printer SDK with dynamic printing options and customized ticket printing',
 			'Integrated Bluetooth serial communication with boom barrier and android device which eliminated physical intervention',
 			'Implemented Google vision to improve scanning under 0.5 sec that can scan parking tickets and extract all necessary information',
@@ -169,7 +171,7 @@ export const ProjectData = [
 			'MyFutball is all about Indian football. Provides News/matches/highlights real time on i-League, ISL along with Premier International leagues and matches. A mobile based football platform for India. India`s Football app </br>MyFutball Is Tapping Into The Market Of 170 Million Football Fans Across India with a vision of building a community driven ecosystem for all things football from commerce to publishing.',
 		image: require('../assets/images/coding.png'),
 		description: '',
-		highlight: [
+		contributions: [
 			'First Indian football app with 5,000+ download with 4.4 ⭐️ on PlayStore',
 			'Implemented 3rd party API for live scores and push notification for every important event in game',
 			'Weekly release with all critical bug fixes and performance enhancements',

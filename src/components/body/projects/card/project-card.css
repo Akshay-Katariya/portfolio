@@ -1,7 +1,7 @@
 .project-card {
 	display: block;
 	position: relative;
-	height: 230px;
+	height: 250px;
 	width: 260px;
 	background-color: #fdfdfd;
 	margin: 20px auto;
@@ -59,20 +59,40 @@
 	position: absolute;
 	width: 32px;
 	height: 32px;
-	overflow: hidden;
 	top: 0;
 	right: 0;
 	background-color: #7fffd4;
 	border-radius: 0 4px 0 32px;
 }
-.go-arrow {
+.go-corner i {
 	margin-top: -4px;
 	margin-right: -4px;
 	color: black;
-	font-family: courier, sans;
+	cursor: pointer;
 }
 /* This is for react-slick library */
 .slick-prev:before,
 .slick-next:before {
 	color: black;
+}
+
+/* Modal Style */
+.modal {
+	outline: transparent;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 720px) {
+	.modal {
+		width: 80%;
+		height: 80%;
+		overflow-y: scroll;
+	}
 }
