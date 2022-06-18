@@ -1,0 +1,12 @@
+.tags {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.tag {
+	font-size: 12px;
+	padding: 4px 8px;
+	background-color: aquamarine;
+	border-radius: 4px;
+	margin: 0 6px 6px 0;
+}
