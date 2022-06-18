@@ -1,0 +1,78 @@
+.project-card {
+	display: block;
+	position: relative;
+	height: 230px;
+	width: 260px;
+	background-color: #fdfdfd;
+	margin: 20px auto;
+	border-radius: 4px;
+	padding: 32px 24px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 24px;
+	text-decoration: none;
+	z-index: 0;
+	overflow: hidden;
+}
+.project-card:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: -16px;
+	right: -16px;
+	background: rgba(127, 255, 211, 0.3);
+	height: 32px;
+	width: 32px;
+	border-radius: 32px;
+	transform: scale(1);
+	transform-origin: 50% 50%;
+	transition: transform 0.5s ease-out;
+}
+.project-card:hover:before {
+	transform: scale(30);
+}
+
+.project-card:hover label {
+	transition: all 0.3s ease-out;
+}
+.project-card-title {
+	color: #262626;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+.project-card-intro {
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* number of lines to show */
+	line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.go-corner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	background-color: #7fffd4;
+	border-radius: 0 4px 0 32px;
+}
+.go-arrow {
+	margin-top: -4px;
+	margin-right: -4px;
+	color: black;
+	font-family: courier, sans;
+}
+/* This is for react-slick library */
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}

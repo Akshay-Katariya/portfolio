@@ -1,0 +1,5 @@
+@media only screen and (max-width: 720px) {
+	.project-slider-container {
+		padding: 0 18px;
+	}
+}

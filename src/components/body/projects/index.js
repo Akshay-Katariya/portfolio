@@ -1,6 +1,5 @@
 import React from 'react'
-import { ProjectData } from '../../../data/project'
-import { ProjectCard } from './project-card'
+import { ProjectSlider } from './slider/project-slider'
 import { Separator } from '../../common/separator'
 import './projects.css'
 
@@ -9,11 +8,7 @@ export const Projects = () => {
 		<div className='projects'>
 			<label className='project-section-title'>Projects</label>
 			<Separator />
-			<div>
-				{ProjectData.map((project) => (
-					<ProjectCard key={project.id} data={project} />
-				))}
-			</div>
+			<ProjectSlider />
 		</div>
 	)
 }
