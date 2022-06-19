@@ -1,7 +1,7 @@
 .project-card {
 	display: block;
 	position: relative;
-	height: 250px;
+	height: 260px;
 	width: 260px;
 	background-color: #fdfdfd;
 	margin: 20px auto;
@@ -63,6 +63,7 @@
 	right: 0;
 	background-color: #7fffd4;
 	border-radius: 0 4px 0 32px;
+	cursor: pointer;
 }
 .go-corner i {
 	margin-top: -4px;

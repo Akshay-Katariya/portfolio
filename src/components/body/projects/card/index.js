@@ -22,14 +22,15 @@ export const ProjectCard = (props) => {
 			<Modal isOpen={isModalOpen} onRequestClose={handleToggle} className='modal' overlayClassName='overlay'>
 				<ProjectModal toggleModal={handleToggle} project={props.project} />
 			</Modal>
-			<div class='project-card' onClick={handleToggle}>
+			<div className='project-card' onClick={handleToggle}>
 				<label className='project-card-title'>{title}</label>
-				<p class='project-card-intro'>{intro}</p>
-				<div class='go-corner' href='#'>
-					{/* <div class='go-arrow'>→</div> */}
-					<i class='fi fi-rr-arrow-right'></i>
+				<div style={{ justifyContent: 'space-between' }}>
+					<p className='project-card-intro'>{intro}</p>
+					<div className='go-corner'>
+						<i className='fi fi-rr-arrow-right' />
+					</div>
+					<Tags list={techStack} />
 				</div>
-				<Tags list={techStack} />
 			</div>
 		</>
 	)

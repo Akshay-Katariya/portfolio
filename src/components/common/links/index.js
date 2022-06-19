@@ -1,5 +1,6 @@
 import React from 'react'
 import './links.css'
+
 export const Links = (props) => {
 	const { text, link, icon } = props
 	return (
