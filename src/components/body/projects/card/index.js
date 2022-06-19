@@ -24,7 +24,7 @@ export const ProjectCard = (props) => {
 			</Modal>
 			<div className='project-card' onClick={handleToggle}>
 				<label className='project-card-title'>{title}</label>
-				<div style={{ justifyContent: 'space-between' }}>
+				<div>
 					<p className='project-card-intro'>{intro}</p>
 					<div className='go-corner'>
 						<i className='fi fi-rr-arrow-right' />
