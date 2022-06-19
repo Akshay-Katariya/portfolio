@@ -8,7 +8,7 @@ export const About = () => {
 		<div className='about'>
 			<div className='about-top'>
 				<div className='about-info'>
-					Hello There <span class='about-wave'>👋</span>, I am
+					Hello There <span className='about-wave'>👋</span>, I am
 					<br />
 					<span className='about-name'>Akshay Katariya.</span>
 					<div className='about-title'>

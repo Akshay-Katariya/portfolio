@@ -66,7 +66,7 @@ export const Email = () => {
 					<textarea name='message' required placeholder='Enter your message' />
 				</div>
 				<button type='submit' className='form-button'>
-					<i class='fi fi-rr-paper-plane' />
+					<i className='fi fi-rr-paper-plane' />
 					Send Message
 				</button>
 			</form>

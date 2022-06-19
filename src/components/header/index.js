@@ -16,7 +16,7 @@ export const Header = () => {
 				</div>
 				<div className='menu-mobile'>
 					<div onClick={handleMenuClick}>
-						<i class='fi fi-rr-apps menu-icon' />
+						<i className='fi fi-rr-apps menu-icon' />
 					</div>
 					{isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
 				</div>
