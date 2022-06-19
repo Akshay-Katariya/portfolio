@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { useEffect } from 'react'
 import './mobile.css'
-import Div100vh from 'react-div-100vh'
 
 export const Mobile = (props) => {
 	const { isOpen, setIsOpen } = props
