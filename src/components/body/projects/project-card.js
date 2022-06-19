@@ -11,14 +11,15 @@ export const ProjectCard = (props) => {
 					{demoLink && (
 						<a className='project-link' href={demoLink} target='_blank' rel='noreferrer'>
 							<div className='project-link-button'>
-								<i className='fi fi-rr-globe'></i>Demo
+								<i className='fi fi-rr-globe' />
+								Demo
 							</div>
 						</a>
 					)}
 					{githubLink && (
 						<a className='project-link' href={githubLink} target='_blank' rel='noreferrer'>
 							<div className='project-link-button'>
-								<i className='devicon-github-original colored'></i>
+								<i className='devicon-github-original colored' />
 								Github
 							</div>
 						</a>

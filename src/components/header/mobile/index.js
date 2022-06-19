@@ -16,27 +16,31 @@ export const Mobile = (props) => {
 	return (
 		<div className='mobile'>
 			<div className='close-icon' onClick={handleCloseClick}>
-				<i className='fi fi-rr-cross-circle'></i>
+				<i className='fi fi-rr-cross-circle' />
 			</div>
 			<div className='mobile-options'>
 				<div className='mobile-option'>
 					<a href='#skills' onClick={handleCloseClick}>
-						<i className='fi fi-rr-laptop option-icon'></i>Skills
+						<i className='fi fi-rr-laptop option-icon' />
+						Skills
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#projects' onClick={handleCloseClick}>
-						<i className='fi fi-rr-edit-alt option-icon'></i>Projects
+						<i className='fi fi-rr-edit-alt option-icon' />
+						Projects
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#work' onClick={handleCloseClick}>
-						<i className='fi fi-rr-briefcase option-icon'></i>Work
+						<i className='fi fi-rr-briefcase option-icon' />
+						Work
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#contact' onClick={handleCloseClick}>
-						<i className='fi fi-rr-user option-icon'></i>Contact
+						<i className='fi fi-rr-user option-icon' />
+						Contact
 					</a>
 				</div>
 			</div>

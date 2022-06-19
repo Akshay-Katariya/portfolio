@@ -27,7 +27,7 @@ export const ProjectCard = (props) => {
 				<p className='project-card-intro'>{intro}</p>
 				<div className='go-corner' href='#'>
 					{/* <div className='go-arrow'>→</div> */}
-					<i className='fi fi-rr-arrow-right'></i>
+					<i className='fi fi-rr-arrow-right' />
 				</div>
 				<Tags list={techStack} />
 			</div>

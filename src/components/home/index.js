@@ -39,7 +39,7 @@ export const Home = () => {
 			</div>
 			{showButton && (
 				<div onClick={scrollToTop} className='back-to-top'>
-					<i className='fi fi-rr-angle-up'></i>
+					<i className='fi fi-rr-angle-up' />
 				</div>
 			)}
 		</div>
