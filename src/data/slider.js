@@ -4,6 +4,7 @@ export const SliderSettings = {
 	arrows: true,
 	infinite: true,
 	// autoplay: true,
+	draggable: false,
 	speed: 1000,
 	autoplaySpeed: 5000,
 	slidesToShow: 3,
