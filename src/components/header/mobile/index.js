@@ -1,10 +1,18 @@
 import PropTypes from 'prop-types'
-import React from 'react'
+import React, { useEffect } from 'react'
 import './mobile.css'
+import Div100vh from 'react-div-100vh'
 
 export const Mobile = (props) => {
 	const { isOpen, setIsOpen } = props
 	const handleCloseClick = () => setIsOpen(!isOpen)
+
+	useEffect(() => {
+		//Disable background scroll when sidebar is opened
+		const body = document.querySelector('body')
+		body.style.overflow = 'hidden'
+		return () => (body.style.overflow = 'auto')
+	}, [])
 
 	return (
 		<div className='mobile'>
