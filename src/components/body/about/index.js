@@ -3,7 +3,7 @@ import { SocialContact } from '../../common/social-contact'
 import './about.css'
 
 export const About = () => {
-	const picture = require('../../../assets/images/coding.png')
+	const picture = require('../../../assets/images/developer.gif')
 	return (
 		<div className='about'>
 			<div className='about-top'>

@@ -6,8 +6,9 @@ export const WorkData = [
 		endDate: 'Present',
 		logo: require('../assets/icons/hcl.png'),
 		achievement: [
-			"Implemented new Android's modern toolkit for building native UI - <b>Jetpack Compose</b>",
-			'Designed & developed mobile application for <b>EV vehicles</b> for Ford Motors',
+			'Designed & developed <b>AV/EV vehicles</b> mobile application for Ford Motors',
+			'Working with Ford Motors to build some automated vehicle (AV) apps',
+			"Implemented Android's modern toolkit for building native UI - <b>Jetpack Compose</b>",
 			'Achieve an ambitious KPI of taking code coverage from <b>70% to 90%</b> i.e 25% more test case and code coverage in React-Native',
 			'Worked with mapbox, navigation-v5, socket for implementing fleet management',
 		],
@@ -41,8 +42,8 @@ export const WorkData = [
 	{
 		company: 'Systems Plus',
 		designation: 'Android Developer',
-		startDate: 'July-2021',
-		endDate: 'Present',
+		startDate: 'July-2016',
+		endDate: 'Feb-2018',
 		logo: require('../assets/icons/s+.png'),
 		achievement: [
 			'Translated UI wireframe and mockup to visual elements of application',
