@@ -9,6 +9,7 @@ const App = () => {
 		if (isAnalyticsEnabled.current) {
 			isAnalyticsEnabled.current = false
 			initTracking()
+			console.log('Analytics enabled')
 		}
 	}, [isAnalyticsEnabled])
 

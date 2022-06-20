@@ -1,4 +1,4 @@
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 
 export const initTracking = () => {
 	ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID, {
