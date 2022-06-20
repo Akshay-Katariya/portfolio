@@ -23,7 +23,7 @@ export const ProjectCard = (props) => {
 				<ProjectModal toggleModal={handleToggle} project={props.project} />
 			</Modal>
 			<div className='project-card' onClick={handleToggle}>
-				<label className='project-card-title'>{title}</label>
+				<label className='project-card-title' dangerouslySetInnerHTML={{ __html: title }} />
 				<div>
 					<p className='project-card-intro'>{intro}</p>
 					<div className='go-corner'>

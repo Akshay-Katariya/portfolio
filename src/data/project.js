@@ -1,7 +1,7 @@
 export const ProjectData = [
 	{
 		id: '0',
-		title: 'MGDA - Moving Goods Driver App',
+		title: 'MGDA:</br>Moving Goods Driver App',
 		intro:
 			'Moving Goods Driver App(MGDA): MGDA is an AV based application. In which driver get trips according to the current location. Driver needs to “Accept/Reject” the trip. The driver pick up the goods from origin and deliver to respective recipient. Whole mobile app is developed in React native(iOS) and backend is managed by TAAS, which is responsible for dispatching the trips to the driver.',
 		image: require('../assets/images/coding.png'),
@@ -30,7 +30,7 @@ export const ProjectData = [
 	},
 	{
 		id: '1',
-		title: 'EMAT - Electronic Market Access Tool',
+		title: 'EMAT:</br>Electronic Market Access Tool',
 		intro:
 			'An application for agronomists and grower to calculate the residue level left on crop and determine the exporting countries and supermarket. Currently, live in 4 country and pilot test in 6 countries.',
 		image: require('../assets/images/coding.png'),
@@ -90,7 +90,7 @@ export const ProjectData = [
 	},
 	{
 		id: '3',
-		title: 'BYDV - Barley Yellow Dwarf Virus',
+		title: 'BYDV:</br>Barley Yellow Dwarf Virus',
 		intro:
 			'A scouting app designed to aid in spray timing to control Barley yellow dwarf virus (BYDV). Available on AppStore and PlayStore',
 		image: require('../assets/images/coding.png'),
@@ -118,7 +118,7 @@ export const ProjectData = [
 	},
 	{
 		id: '4',
-		title: 'TMSC - Tata Motors Service Connect',
+		title: 'TMSC:</br>Tata Motors Service Connect',
 		intro:
 			'An official app from Tata Motors for the customers of passenger vehicles business which allows them to connect with Tata Motors for his/her after market needs.',
 		image: require('../assets/images/coding.png'),
