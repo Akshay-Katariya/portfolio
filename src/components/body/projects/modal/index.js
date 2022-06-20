@@ -15,7 +15,7 @@ export const ProjectModal = (props) => {
 				</div>
 			</div>
 			<div className='modal-body'>
-				<label class='modal-card-title'>{title}</label>
+				<label class='modal-card-title' dangerouslySetInnerHTML={{ __html: title }} />
 				<p>{intro}</p>
 
 				<label class='modal-card-label'>Links:</label>
