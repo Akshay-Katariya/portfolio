@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga'
 
 export const initTracking = () => {
-	ReactGA.initialize(process.env.REACT_GA_TRACKING_ID, {
+	ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID, {
 		debug: true,
 		titleCase: false,
 		gaOptions: {
