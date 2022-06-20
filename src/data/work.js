@@ -1,6 +1,6 @@
 export const WorkData = [
 	{
-		company: 'HCL Technologies',
+		companyName: 'HCL Technologies',
 		designation: 'Developer',
 		startDate: 'July-2021',
 		endDate: 'Present',
@@ -14,7 +14,7 @@ export const WorkData = [
 		],
 	},
 	{
-		company: 'Syngenta Pvt Ltd',
+		companyName: 'Syngenta Pvt Ltd',
 		designation: 'Mobile Developer',
 		startDate: 'May-2019',
 		endDate: 'July-2021',
@@ -28,7 +28,7 @@ export const WorkData = [
 		],
 	},
 	{
-		company: 'YUJ Designs',
+		companyName: 'YUJ Designs',
 		designation: 'Android Developer',
 		startDate: 'March-2018',
 		endDate: 'April-2019',
@@ -36,11 +36,11 @@ export const WorkData = [
 		achievement: [
 			'Work closely with designers and cross function teams and seamlessly establish trust and competency',
 			'Introduced & encouraged developers to start coding in <b>Kotlin</b> and delivered a complex project within <b>4 months</b>',
-			'Design and developed 2 major application for the company which bought <b>2+ leads</b> in the following quarter',
+			'Design and developed 2 major application for the companyName which bought <b>2+ leads</b> in the following quarter',
 		],
 	},
 	{
-		company: 'Systems Plus',
+		companyName: 'Systems Plus',
 		designation: 'Android Developer',
 		startDate: 'July-2016',
 		endDate: 'Feb-2018',

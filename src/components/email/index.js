@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import './email.css'
+import { trackEvent } from '../../analytics/tracking'
+import { CATEGORY_EMAIL_JS, EVENT_MAIL_SENT } from '../../analytics/events'
 
 export const Email = () => {
 	const emailRegex = `([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$`
@@ -30,6 +32,7 @@ export const Email = () => {
 			)
 			.then(
 				(result) => {
+					trackEvent(CATEGORY_EMAIL_JS, EVENT_MAIL_SENT)
 					e.target.reset()
 					toast.update(id, {
 						render: 'Thank you for contacting me 🙏',
@@ -42,7 +45,6 @@ export const Email = () => {
 						progress: undefined,
 						isLoading: false,
 					})
-					console.log(result.text)
 				},
 				(error) => {
 					console.log(error.text)

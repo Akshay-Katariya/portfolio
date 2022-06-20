@@ -11,20 +11,20 @@ export const ProjectModal = (props) => {
 			<div className='modal-header'>
 				<div className='modal-close-corner' onClick={toggleModal}>
 					Close
-					<i class='fi fi-rr-cross-circle' />
+					<i className='fi fi-rr-cross-circle' />
 				</div>
 			</div>
 			<div className='modal-body'>
-				<label class='modal-card-title' dangerouslySetInnerHTML={{ __html: title }} />
+				<label className='modal-card-title' dangerouslySetInnerHTML={{ __html: title }} />
 				<p>{intro}</p>
 
-				<label class='modal-card-label'>Links:</label>
-				<Links text='Demo' link={demoLink} icon='fi fi-rr-laptop' />
+				<label className='modal-card-label'>Links:</label>
+				<Links text='Demo' title={title} link={demoLink} icon='fi fi-rr-laptop' />
 
-				<label class='modal-card-label'>Technologies:</label>
+				<label className='modal-card-label'>Technologies:</label>
 				<Tags list={techStack} />
 
-				<label class='modal-card-label-contri'>Contribution:</label>
+				<label className='modal-card-label-contri'>Contribution:</label>
 				{contributions.map((contribution, index) => {
 					return (
 						<ul key={index}>

@@ -145,8 +145,8 @@ export const ProjectData = [
 			'White label the whole application to customize the theme and fit client custom requirement',
 		],
 		techStack: ['Fingerprint', 'OAuth', 'ButterKnife', 'Retrofit', 'Room database', 'Event Bus,'],
-		demoLink: 'https://github.com/Akshay-Katariya',
-		githubLink: 'https://github.com/Akshay-Katariya',
+		demoLink: 'https://play.google.com/store/search?q=boca%20west&c=apps',
+		githubLink: 'https://play.google.com/store/search?q=boca%20west&c=apps',
 	},
 	{
 		id: '6',
