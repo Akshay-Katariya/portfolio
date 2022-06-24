@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoogleIcons, Icons } from '../../../icons'
 import './web.css'
 
 export const Web = () => {
@@ -7,25 +8,25 @@ export const Web = () => {
 			<div />
 			<div className='web-option'>
 				<a href='#skills'>
-					<i className='fi fi-rr-laptop option-icon' />
+					<GoogleIcons name={Icons.Skills} margin />
 					Skills
 				</a>
 			</div>
 			<div className='web-option'>
 				<a href='#projects'>
-					<i className='fi fi-rr-edit-alt option-icon' />
+					<GoogleIcons name={Icons.Project} margin />
 					Projects
 				</a>
 			</div>
 			<div className='web-option'>
 				<a href='#work'>
-					<i className='fi fi-rr-briefcase option-icon' />
+					<GoogleIcons name={Icons.Work} margin />
 					Work
 				</a>
 			</div>
 			<div className='web-option'>
 				<a href='#contact'>
-					<i className='fi fi-rr-user option-icon' />
+					<GoogleIcons name={Icons.Contact} margin />
 					Contact
 				</a>
 			</div>

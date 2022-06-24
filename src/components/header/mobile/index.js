@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { useEffect } from 'react'
+import { GoogleIcons, Icons } from '../../../icons'
 import './mobile.css'
 
 export const Mobile = (props) => {
@@ -16,30 +17,30 @@ export const Mobile = (props) => {
 	return (
 		<div className='mobile'>
 			<div className='close-icon' onClick={handleCloseClick}>
-				<i className='fi fi-rr-cross-circle' />
+				<GoogleIcons name={Icons.Close} margin />
 			</div>
 			<div className='mobile-options'>
 				<div className='mobile-option'>
 					<a href='#skills' onClick={handleCloseClick}>
-						<i className='fi fi-rr-laptop option-icon' />
+						<GoogleIcons name={Icons.Skills} margin />
 						Skills
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#projects' onClick={handleCloseClick}>
-						<i className='fi fi-rr-edit-alt option-icon' />
+						<GoogleIcons name={Icons.Project} margin />
 						Projects
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#work' onClick={handleCloseClick}>
-						<i className='fi fi-rr-briefcase option-icon' />
+						<GoogleIcons name={Icons.Work} margin />
 						Work
 					</a>
 				</div>
 				<div className='mobile-option'>
 					<a href='#contact' onClick={handleCloseClick}>
-						<i className='fi fi-rr-user option-icon' />
+						<GoogleIcons name={Icons.Contact} margin />
 						Contact
 					</a>
 				</div>

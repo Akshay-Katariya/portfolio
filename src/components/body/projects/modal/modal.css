@@ -36,6 +36,9 @@
 	align-items: center;
 	margin-left: 4px;
 }
+.modal-close-corner label {
+	margin-right: 4px;
+}
 .modal-card-title {
 	font-size: 24px;
 	font-weight: 600;
@@ -55,6 +58,9 @@
 }
 
 @media only screen and (max-width: 720px) {
+	.modal-card-title {
+		font-size: 22px;
+	}
 	.modal-container {
 		max-height: calc(100% - 50px);
 		max-width: calc(100% - 50px);

@@ -13,11 +13,6 @@
 	color: black;
 	align-items: center;
 }
-.option-icon {
-	display: flex;
-	align-items: center;
-	margin-right: 4px;
-}
 .web-option:last-child {
 	margin-right: 0px;
 }

@@ -54,8 +54,8 @@
 }
 .go-corner {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	position: absolute;
 	width: 32px;
 	height: 32px;
@@ -65,11 +65,9 @@
 	border-radius: 0 4px 0 32px;
 	cursor: pointer;
 }
-.go-corner i {
-	margin-top: -4px;
-	margin-right: -4px;
-	color: black;
-	cursor: pointer;
+.go-corner span {
+	margin-top: -6px;
+	margin-left: 4px;
 }
 /* This is for react-slick library */
 .slick-prev:before,

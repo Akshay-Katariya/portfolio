@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoogleIcons, Icons } from '../../../../icons'
 import { Links } from '../../../common/links'
 import { Tags } from '../../../common/tags'
 import './modal.css'
@@ -10,16 +11,16 @@ export const ProjectModal = (props) => {
 		<div className='modal-container'>
 			<div className='modal-header'>
 				<div className='modal-close-corner' onClick={toggleModal}>
-					Close
-					<i className='fi fi-rr-cross-circle' />
+					<label>Close</label>
+					<GoogleIcons name={Icons.Close} />
 				</div>
 			</div>
 			<div className='modal-body'>
 				<label className='modal-card-title' dangerouslySetInnerHTML={{ __html: title }} />
 				<p>{intro}</p>
 
-				<label className='modal-card-label'>Links:</label>
-				<Links text='Demo' title={title} link={demoLink} icon='fi fi-rr-laptop' />
+				{demoLink && <label className='modal-card-label'>Link:</label>}
+				{demoLink && <Links text='Demo' title={title} link={demoLink} icon={Icons.Project} />}
 
 				<label className='modal-card-label'>Technologies:</label>
 				<Tags list={techStack} />

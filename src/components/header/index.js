@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Mobile } from './mobile'
 import { Web } from './web'
 import './header.css'
+import { GoogleIcons, Icons } from '../../icons'
 
 export const Header = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -16,7 +17,7 @@ export const Header = () => {
 				</div>
 				<div className='menu-mobile'>
 					<div onClick={handleMenuClick}>
-						<i className='fi fi-rr-apps menu-icon' />
+						<GoogleIcons name={Icons.Menu} />
 					</div>
 					{isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
 				</div>

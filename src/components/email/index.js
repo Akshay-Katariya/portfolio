@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import './email.css'
 import { trackEvent } from '../../analytics/tracking'
 import { CATEGORY_EMAIL_JS, EVENT_MAIL_SENT } from '../../analytics/events'
+import { GoogleIcons, Icons } from '../../icons'
 
 export const Email = () => {
 	const emailRegex = `([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$`
@@ -68,8 +69,8 @@ export const Email = () => {
 					<textarea name='message' required placeholder='Enter your message' />
 				</div>
 				<button type='submit' className='form-button'>
-					<i className='fi fi-rr-paper-plane' />
-					Send Message
+					<GoogleIcons name={Icons.Email} margin />
+					Send Email
 				</button>
 			</form>
 			<ToastContainer

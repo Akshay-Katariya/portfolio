@@ -18,12 +18,17 @@ html {
 	height: 60px;
 	width: 60px;
 	font-size: 24px;
+	transform: rotateZ(90deg);
 	position: fixed;
 	background: aquamarine;
 	color: black;
 	cursor: pointer;
 	border-radius: 100px;
-	box-shadow: 0 5px 10px #cccccc;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 24px;
+}
+
+.back-to-top span {
+	align-items: center;
 }
 
 .back-to-top:hover {

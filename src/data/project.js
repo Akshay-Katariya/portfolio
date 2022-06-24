@@ -26,7 +26,6 @@ export const ProjectData = [
 			'Jest',
 			'react-native-testing-library',
 		],
-		demoLink: 'http://google.com',
 	},
 	{
 		id: '1',

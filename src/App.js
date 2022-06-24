@@ -9,7 +9,6 @@ const App = () => {
 		if (isAnalyticsEnabled.current) {
 			isAnalyticsEnabled.current = false
 			initTracking()
-			console.log('Analytics enabled', process.env.REACT_APP_GA_TRACKING_ID)
 		}
 	}, [isAnalyticsEnabled])
 

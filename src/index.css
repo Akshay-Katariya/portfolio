@@ -8,3 +8,8 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+.google-icon {
+	display: flex;
+	align-items: center;
+	margin-right: 6px;
+}

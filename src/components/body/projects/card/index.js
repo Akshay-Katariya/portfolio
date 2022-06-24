@@ -5,6 +5,7 @@ import Modal from 'react-modal'
 import { ProjectModal } from '../modal'
 import { trackEvent } from '../../../../analytics/tracking'
 import { CATEGORY_PROJECTS, EVENT_PROJECT_VIEWED } from '../../../../analytics/events'
+import { GoogleIcons, Icons } from '../../../../icons'
 
 export const ProjectCard = (props) => {
 	const { title, intro, techStack } = props.project
@@ -33,7 +34,7 @@ export const ProjectCard = (props) => {
 				<div>
 					<p className='project-card-intro'>{intro}</p>
 					<div className='go-corner'>
-						<i className='fi fi-rr-arrow-right' />
+						<GoogleIcons name={Icons.ArrowRight} />
 					</div>
 					<Tags list={techStack} />
 				</div>

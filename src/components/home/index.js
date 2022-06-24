@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { GoogleIcons, Icons } from '../../icons'
 import { Body } from '../body'
 import { Footer } from '../footer'
 import { Header } from '../header'
@@ -39,7 +40,7 @@ export const Home = () => {
 			</div>
 			{showButton && (
 				<div onClick={scrollToTop} className='back-to-top'>
-					<i className='fi fi-rr-angle-up' />
+					<GoogleIcons name={Icons.ArrowUp} />
 				</div>
 			)}
 		</div>

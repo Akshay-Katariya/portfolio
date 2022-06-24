@@ -3,6 +3,7 @@ import { trackEvent } from '../../../analytics/tracking'
 import { SocialData } from '../../../data/social'
 import { CATEGORY_SOCIAL, EVENT_RESUME_DOWNLOAD } from '../../../analytics/events'
 import './social-contact.css'
+import { GoogleIcons, Icons } from '../../../icons'
 
 export const SocialContact = () => {
 	const resume = require('../../../assets/AkshayKatariyaResume.pdf')
@@ -30,7 +31,7 @@ export const SocialContact = () => {
 			</div>
 			<div className='download'>
 				<a download='Akshay-Katariya-Resume.pdf' href={resume} onClick={trackResumeDownload}>
-					<i className='fi fi-rr-cloud-download' />
+					<GoogleIcons name={Icons.Download} margin />
 					Download Resume
 				</a>
 			</div>
