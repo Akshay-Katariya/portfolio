@@ -14,7 +14,7 @@ export const Icons = {
 	ArrowUp: 'arrow_back_ios_new',
 }
 
-export const GoogleIcons = ({ name, margin, normal }) => (
+export const GoogleIcons = ({ name, margin }) => (
 	<span translate='no' className={margin ? `material-symbols-rounded google-icon` : 'material-symbols-rounded'}>
 		{name}
 	</span>
