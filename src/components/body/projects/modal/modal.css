@@ -3,6 +3,7 @@
 	flex-direction: column;
 	position: fixed;
 	background: #fff;
+	height: max-content;
 	max-height: calc(90%);
 	max-width: calc(50%);
 	left: 0;

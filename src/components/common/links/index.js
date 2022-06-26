@@ -7,7 +7,10 @@ import './links.css'
 export const Links = (props) => {
 	const { text, title, link, icon } = props
 
-	const trackLink = () => trackEvent(CATEGORY_DEMO_LINK, EVENT_DEMO_VIEWED, title)
+	const trackLink = () => {
+		trackEvent(CATEGORY_DEMO_LINK, EVENT_DEMO_VIEWED + ' ' + title.split(':')[0])
+		console.log('Demo==>', title.split(':')[0])
+	}
 
 	return (
 		<div className='project-links'>

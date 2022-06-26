@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CATEGORY_COMPANY, EVENT_COMPANY_VIEWED } from '../../../analytics/events'
+import { CATEGORY_COMPANY } from '../../../analytics/events'
 import { trackEvent } from '../../../analytics/tracking'
 import { WorkData } from '../../../data/work'
 import { Separator } from '../../common/separator'
@@ -11,7 +11,7 @@ export const Work = () => {
 
 	const handleWorkClick = (company) => {
 		setData(company)
-		trackEvent(CATEGORY_COMPANY, EVENT_COMPANY_VIEWED, company.companyName)
+		trackEvent(CATEGORY_COMPANY, company.companyName)
 	}
 
 	return (

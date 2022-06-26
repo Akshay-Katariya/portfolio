@@ -13,8 +13,8 @@ export const ProjectCard = (props) => {
 	const [isModalOpen, setModalOpen] = useState(false)
 
 	const handleModalToggle = () => {
-		trackEvent(CATEGORY_PROJECTS, EVENT_PROJECT_VIEWED, title.replace(/(<([^>]+)>)/gi, ''))
 		setModalOpen(!isModalOpen)
+		trackEvent(CATEGORY_PROJECTS, EVENT_PROJECT_VIEWED + ' ' + title.split(':')[0])
 	}
 
 	useEffect(() => {
@@ -29,7 +29,7 @@ export const ProjectCard = (props) => {
 			<Modal isOpen={isModalOpen} onRequestClose={handleModalToggle} className='modal' overlayClassName='overlay'>
 				<ProjectModal toggleModal={handleModalToggle} project={props.project} />
 			</Modal>
-			<div className='project-card' onClick={() => handleModalToggle()}>
+			<div className='project-card' onClick={handleModalToggle}>
 				<label className='project-card-title' dangerouslySetInnerHTML={{ __html: title }} />
 				<div>
 					<p className='project-card-intro'>{intro}</p>

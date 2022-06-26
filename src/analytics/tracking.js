@@ -10,5 +10,4 @@ export const initTracking = () => {
 	})
 }
 
-export const trackEvent = (category, action, label) =>
-	ReactGA.event({ category: category || '', action: action || '', label: label || '' })
+export const trackEvent = (category, action) => ReactGA.event({ category: category || '', action: action || '' })

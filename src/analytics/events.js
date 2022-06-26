@@ -8,6 +8,5 @@ export const CATEGORY_DEMO_LINK = 'DemoLink'
 //Tracking event names
 export const EVENT_RESUME_DOWNLOAD = 'ResumeDownload'
 export const EVENT_MAIL_SENT = 'MailSent'
-export const EVENT_COMPANY_VIEWED = 'CompanyViewed'
 export const EVENT_PROJECT_VIEWED = 'ProjectViewed'
 export const EVENT_DEMO_VIEWED = 'DemoViewed'
