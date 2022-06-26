@@ -1,6 +1,33 @@
 export const ProjectData = [
 	{
 		id: '0',
+		title: 'Harmonica',
+		intro:
+			'This code assignment was part of "React Native Engineer Technical Task" As part of our recruitment process for the React Native position, you are kindly requested to answer the below task and send it back to us in a maximum three days. Kindly design and implement the 3 screens, make to use the below Redux React-navigation, more details are attached to the sketch file.',
+		image: require('../assets/images/coding.png'),
+		description: '',
+		contributions: [
+			'The project uses yarn as a package manager along with eslint + prettier + airbnb config',
+			'Created several reusable components which can be reused across the application',
+			'All functional components with 100% typescript support & hooks',
+			'Redux implementation using hooks',
+			'React navigation v5 along with stacks for RootStack HomeStack & reset stack after landing to home page',
+			'Working on both Android & iOS platforms',
+		],
+		techStack: [
+			'React-Native 0.64',
+			'TypeScript',
+			'Navigation v5',
+			'Redux',
+			'react-native-svg',
+			'linear-gradient',
+			'clipboard',
+			'eslint-config-airbnb',
+		],
+		demoLink: 'https://github.com/Akshay-Katariya/Harmonica',
+	},
+	{
+		id: '1',
 		title: 'MGDA:</br>Moving Goods Driver App',
 		intro:
 			'MGDA is an AV based application. In which driver get trips according to the current location. Driver needs to “Accept/Reject” the trip. The driver pick up the goods from origin and deliver to respective recipient. Whole mobile app is developed in React native(iOS) and backend is managed by TAAS, which is responsible for dispatching the trips to the driver.',
@@ -28,7 +55,7 @@ export const ProjectData = [
 		],
 	},
 	{
-		id: '1',
+		id: '2',
 		title: 'EMAT:</br>Electronic Market Access Tool',
 		intro:
 			'An application for agronomists and grower to calculate the residue level left on crop and determine the exporting countries and supermarket. Currently, live in 4 country and pilot test in 6 countries.',
@@ -61,7 +88,7 @@ export const ProjectData = [
 		demoLink: 'http://shorturl.at/eghkC',
 	},
 	{
-		id: '2',
+		id: '3',
 		title: 'Cropwise Base',
 		intro:
 			'All-in-one digital farming solution. A application for agronomist which helps them to manage large fields and keep track of various seasonal crops and help grower by providing accurate analysis of weather and best',
@@ -88,7 +115,7 @@ export const ProjectData = [
 		demoLink: 'https://www.cropwise.com/#apps',
 	},
 	{
-		id: '3',
+		id: '4',
 		title: 'BYDV:</br>Barley Yellow Dwarf Virus',
 		intro:
 			'A scouting app designed to aid in spray timing to control Barley yellow dwarf virus (BYDV). Available on AppStore and PlayStore',
@@ -116,7 +143,7 @@ export const ProjectData = [
 		githubLink: 'https://play.google.com/store/apps/details?id=com.bydv_assist&hl=en_IN&gl=US',
 	},
 	{
-		id: '4',
+		id: '5',
 		title: 'TMSC:</br>Tata Motors Service Connect',
 		intro:
 			'An official app from Tata Motors for the customers of passenger vehicles business which allows them to connect with Tata Motors for his/her after market needs.',
@@ -132,7 +159,7 @@ export const ProjectData = [
 		demoLink: 'https://play.google.com/store/apps/details?id=com.ttl.customersocialapp&hl=en_IN',
 	},
 	{
-		id: '5',
+		id: '6',
 		title: 'Boca West',
 		intro:
 			'Boca West Country Club member app, which allows members to connect to the club faster than before. Member can instantly view the club events, Member Directory, Guest Cards, your own Gift Certificates and the balances and host of other features.',
@@ -148,7 +175,7 @@ export const ProjectData = [
 		githubLink: 'https://play.google.com/store/search?q=boca%20west&c=apps',
 	},
 	{
-		id: '6',
+		id: '7',
 		title: 'Secure Parking',
 		intro:
 			'Developed end-to-end B2B parking system for vendor called Secure Parking including Mobile + Web application portal including dynamic configurable Admin panel which generates 2.5 billion annually over 1,700+ car parks and 1.2 million parking spaces are under operation.',
@@ -164,7 +191,7 @@ export const ProjectData = [
 		techStack: ['Cryptography', 'AES', 'Paytm integration', 'Redux', 'QR Code', 'Epson SDK', 'RFID'],
 	},
 	{
-		id: '7',
+		id: '8',
 		title: 'MyFutball',
 		intro:
 			'MyFutball is all about Indian football. Provides News/matches/highlights real time on i-League, ISL along with Premier International leagues and matches. A mobile based football platform for India. India`s Football app </br>MyFutball Is Tapping Into The Market Of 170 Million Football Fans Across India with a vision of building a community driven ecosystem for all things football from commerce to publishing.',
