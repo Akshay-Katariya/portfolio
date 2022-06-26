@@ -20,17 +20,19 @@ export const About = () => {
 						</div>
 					</div>
 					<div className='about-intro'>
-						Always open to learn new language and framework <br />
-						Currently experimenting with mobile and web technologies
-						<br />
-						<br />
-						Dynamic mobile application developer with a strong <span className='about-exp'>6+ years</span> of experience
-						in building and publishing apps to PlayStore and AppStore with comprehensive knowledge of platform
-						development, enterprise architecture, agile methodologies, API services, and web-based applications.
+						A dynamic mobile application developer with a strong <span className='about-exp'>6+ years</span> of
+						experience in building and publishing apps to PlayStore and AppStore with comprehensive knowledge of
+						platform development, enterprise architecture, agile methodologies, API services, and web-based
+						applications.
 						<br />
 						<br />
 						Proficient in Typescript/JavaScript and passionate to write clean, testable, maintainable, and performant
 						code.
+						<br />
+						<br />
+						Always open to learn new language and framework, currently experimenting with mobile and web technologies.
+						<br />
+						<br />
 					</div>
 				</div>
 				<div className='about-photo'>
