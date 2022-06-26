@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React, { useEffect } from 'react'
 import { GoogleIcons, Icons } from '../../../icons'
 import './mobile.css'
@@ -23,7 +22,7 @@ export const Mobile = (props) => {
 				<div className='mobile-option'>
 					<a href='#skills' onClick={handleCloseClick}>
 						<GoogleIcons name={Icons.Skills} margin />
-						Skills
+						<span class='material-symbols-outlined'>keyboard_alt</span> Skills
 					</a>
 				</div>
 				<div className='mobile-option'>
@@ -47,9 +46,4 @@ export const Mobile = (props) => {
 			</div>
 		</div>
 	)
-}
-
-Mobile.prototype = {
-	isOpen: PropTypes.bool,
-	setIsOpen: PropTypes.func,
 }

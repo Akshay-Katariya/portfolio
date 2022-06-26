@@ -15,5 +15,7 @@ export const Icons = {
 }
 
 export const GoogleIcons = ({ name, margin, normal }) => (
-	<span className={margin ? `material-symbols-rounded google-icon` : 'material-symbols-rounded'}>{name}</span>
+	<span translate='no' className={margin ? `material-symbols-rounded google-icon` : 'material-symbols-rounded'}>
+		{name}
+	</span>
 )
