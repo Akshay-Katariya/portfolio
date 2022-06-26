@@ -9,6 +9,7 @@
 	position: relative;
 	padding: 19px 22px;
 	transition: all 0.2s ease;
+	cursor: pointer;
 }
 .work-cta:before {
 	content: '';
