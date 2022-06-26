@@ -8,7 +8,7 @@ export const SliderSettings = {
 	speed: 1000,
 	autoplaySpeed: 5000,
 	slidesToShow: 3,
-	slidesToScroll: 1,
+	slidesToScroll: 3,
 
 	responsive: [
 		{
