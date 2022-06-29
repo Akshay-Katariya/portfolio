@@ -2,7 +2,7 @@ export const WorkData = [
 	{
 		companyName: 'HCL Technologies',
 		designation: 'Developer',
-		startDate: 'July-2021',
+		startDate: 'June-2021',
 		endDate: 'Present',
 		logo: require('../assets/icons/hcl.png'),
 		achievement: [
@@ -17,7 +17,7 @@ export const WorkData = [
 		companyName: 'Syngenta Pvt Ltd',
 		designation: 'Mobile Developer',
 		startDate: 'May-2019',
-		endDate: 'July-2021',
+		endDate: 'June-2021',
 		logo: require('../assets/icons/syngenta.png'),
 		achievement: [
 			'Successfully delivered <b>4 projects</b> and published them to AppStore and PlayStore and maintain stability of all applications',
