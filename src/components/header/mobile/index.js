@@ -22,7 +22,7 @@ export const Mobile = (props) => {
 				<div className='mobile-option'>
 					<a href='#skills' onClick={handleCloseClick}>
 						<GoogleIcons name={Icons.Skills} margin />
-						<span class='material-symbols-outlined'>keyboard_alt</span> Skills
+						Skills
 					</a>
 				</div>
 				<div className='mobile-option'>
