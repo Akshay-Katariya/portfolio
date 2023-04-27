@@ -20,7 +20,7 @@ export const About = () => {
 						</div>
 					</div>
 					<div className='about-intro'>
-						A dynamic mobile application developer with a strong <span className='about-exp'>6+ years</span> of
+						A dynamic web & mobile application developer with a strong <span className='about-exp'>7 years</span> of
 						experience in building and publishing apps to PlayStore and AppStore with comprehensive knowledge of
 						platform development, enterprise architecture, agile methodologies, API services, and web-based
 						applications.

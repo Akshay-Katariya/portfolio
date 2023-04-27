@@ -6,7 +6,7 @@ import './social-contact.css'
 import { GoogleIcons, Icons } from '../../../icons'
 
 export const SocialContact = () => {
-	const resume = require('../../../assets/AkshayKatariyaResume.pdf')
+	const resume = require('../../../assets/Akshay_Katariya_CV.pdf')
 
 	const trackResumeDownload = () => trackEvent(CATEGORY_SOCIAL, EVENT_RESUME_DOWNLOAD)
 	const trackSocialLinks = (platformName) => trackEvent(CATEGORY_SOCIAL, platformName)

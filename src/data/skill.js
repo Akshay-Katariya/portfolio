@@ -55,6 +55,14 @@ export const SkillsData = [
 				name: 'Jest',
 				icon: <i className='devicon-jest-plain colored' />,
 			},
+			{
+				name: 'Html',
+				icon: <i className='devicon-html5-plain colored' />,
+			},
+			{
+				name: 'CSS',
+				icon: <i className='devicon-css3-plain colored colored' />,
+			},
 		],
 	},
 	{
