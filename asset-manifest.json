@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.12af858d.css",
-    "main.js": "/portfolio/static/js/main.6f5caa45.js",
+    "main.js": "/portfolio/static/js/main.c1588a16.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/developer.gif": "/portfolio/static/media/developer.0915a6d2f12b0dec6f3f.gif",
     "static/media/coding.png": "/portfolio/static/media/coding.2fa94aa19f1dceccac57.png",
-    "static/media/Akshay_Katariya_CV.pdf": "/portfolio/static/media/Akshay_Katariya_CV.67ffd54bb3348fe7b2ff.pdf",
+    "static/media/CV_Akshay_Web_Mobile.pdf": "/portfolio/static/media/CV_Akshay_Web_Mobile.ca345db008f80c580e9e.pdf",
     "static/media/yuj.png": "/portfolio/static/media/yuj.5ad8a5f873ec9527dd08.png",
     "static/media/instagram.png": "/portfolio/static/media/instagram.34e2a1577609f014a80a.png",
     "static/media/syngenta.png": "/portfolio/static/media/syngenta.c4f4a3f3d83ddf7b7944.png",
@@ -17,11 +17,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.12af858d.css.map": "/portfolio/static/css/main.12af858d.css.map",
-    "main.6f5caa45.js.map": "/portfolio/static/js/main.6f5caa45.js.map",
+    "main.c1588a16.js.map": "/portfolio/static/js/main.c1588a16.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12af858d.css",
-    "static/js/main.6f5caa45.js"
+    "static/js/main.c1588a16.js"
   ]
 }
