@@ -6,8 +6,8 @@ export const WorkData = [
 		endDate: 'Present',
 		logo: require('../assets/icons/hcl.png'),
 		achievement: [
-			'Designed & developed <b>AV/EV vehicles</b> mobile application for Ford Motors',
-			'Working with Ford Motors to build some automated vehicle (AV) apps',
+			'Actively involved in development & production support for <b>Verizon</b>',
+			'Designed & developed <b>AV/EV vehicles</b> application for <b>Ford Motors</b>',
 			"Implemented Android's modern toolkit for building native UI - <b>Jetpack Compose</b>",
 			'Achieve an ambitious KPI of taking code coverage from <b>70% to 90%</b> i.e 25% more test case and code coverage in React-Native',
 			'Worked with mapbox, navigation-v5, socket for implementing fleet management',
@@ -21,6 +21,7 @@ export const WorkData = [
 		logo: require('../assets/icons/syngenta.png'),
 		achievement: [
 			'Successfully delivered <b>4 projects</b> and published them to AppStore and PlayStore and maintain stability of all applications',
+			'Delivered <b>Web & Mobile</b> application by reusing <b>React component</b> across platforms',
 			'<b>Mentoring</b> junior resources, performing code reviews and providing constructive feedbacks',
 			'Integrated and established fully automated <b>CI-CD</b> pipeline which performs jobs like linting, testing, build and deployment & Slack integration which saved developers <b>10% of man hours</b> in each sprint',
 			'Implemented best coding standards and practices to maintain code quality through the application, developed 5+ reusable components',
