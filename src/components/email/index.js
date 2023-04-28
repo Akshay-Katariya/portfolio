@@ -7,11 +7,12 @@ import { trackEvent } from '../../analytics/tracking'
 import { CATEGORY_EMAIL_JS, EVENT_MAIL_SENT } from '../../analytics/events'
 import { GoogleIcons, Icons } from '../../icons'
 
+const emailRegex = `([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$`
+
 export const Email = () => {
-	const emailRegex = `([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$`
 	const form = useRef()
 
-	const sendEmail = (e) => {
+	const makeToast = ()=>{
 		const id = toast.loading('Sending email', {
 			position: 'bottom-center',
 			autoClose: 5000,
@@ -22,6 +23,11 @@ export const Email = () => {
 			icon: false,
 			closeButton: true,
 		})
+		return id
+	}
+
+	const sendEmail = (e) => {
+		let toastId = makeToast()
 
 		e.preventDefault()
 		emailjs
@@ -35,7 +41,7 @@ export const Email = () => {
 				(result) => {
 					trackEvent(CATEGORY_EMAIL_JS, EVENT_MAIL_SENT)
 					e.target.reset()
-					toast.update(id, {
+					toast.update(toastId, {
 						render: 'Thank you for contacting me 🙏',
 						type: 'success',
 						autoClose: 5000,
@@ -49,6 +55,17 @@ export const Email = () => {
 				},
 				(error) => {
 					console.log(error.text)
+					toast.update(toastId, {
+						render: 'Oops! Something went wrong with Email-JS',
+						type: 'error',
+						autoClose: 5000,
+						hideProgressBar: false,
+						closeOnClick: true,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+						isLoading: false,
+					})
 				}
 			)
 	}
